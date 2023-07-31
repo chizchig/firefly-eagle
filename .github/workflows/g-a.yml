@@ -8,7 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: self-hosted  # Make sure your self-hosted runner is properly configured and has the required tools (Terraform, AWS CLI, etc.)
-              - chizx-runner
 
     steps:
       - name: Checkout code
